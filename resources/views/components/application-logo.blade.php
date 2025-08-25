@@ -1,0 +1,1 @@
+<img src="{{ asset('images/chemicalAi.png') }}" alt="Logo" {{ $attributes }}>
