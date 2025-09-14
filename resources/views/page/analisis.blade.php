@@ -16,7 +16,7 @@
             </div>
             <div class="flex items-center px-10 my-3 text-xl bg-gray-100 text-blue-700 border-2 border-blue-700 hover:text-white hover:bg-blue-700 transform hover:scale-105 transition duration-200 font-semibold rounded-lg">
                 <img src="{{ asset('images/vector.png') }}" alt="" class="w-6 h-6 mr-2">
-                <a href="{{ route('page.analisis') }}">
+                <a href="{{ route('analisis.history') }}">
                     {{ __('Riwayat Analisis') }}
                 </a>
             </div>

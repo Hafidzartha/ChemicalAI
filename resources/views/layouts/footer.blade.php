@@ -5,7 +5,7 @@
         <div class="col-span-2">
             <div class="flex items-center gap-2 mb-2">
                 <img src="/images/home/logo.svg" alt="SaniFlow Logo" class="w-20 h-20">
-                <h1 class="text-xl font-semibold text-[#02A6EB]">SaniFlow</h1>
+                <h1 class="text-xl font-semibold text-[#02A6EB]">Chemical AI</h1>
             </div>
             <p>Platform analisis kimia berbasis AI yang mengubah video reaksi menjadi data kuantitatif akurat. Laboratorium kimia di dalam browser Anda.</p>
         </div>
@@ -52,28 +52,18 @@
                 📍 Jl. Veteran No.10-11, Ketawanggede,<br>
                 Kec. Lowokwaru, Kota Malang
             </p>
-            <p class="mt-2">📧 saniflow@gmail.com</p>
+            <p class="mt-2">📧 chemicalai@gmail.com</p>
             </div>
 
             <!-- Sosial -->
             <div>
-            <h3 class="font-bold mb-2">Follow Us</h3>
-            <div class="flex gap-3 mb-4">
-                <img src="/images/home/Facebook.png" alt="Facebook" class="w-6 h-6">
-                <img src="/images/home/Telegram.png" alt="Telegram" class="w-6 h-6">
-                <img src="/images/home/Instagram.png" alt="Instagram" class="w-6 h-6">
-                <img src="/images/home/X.png" alt="X" class="w-6 h-6">
-            </div>
-
-            <!-- //Partner
-            <h3 class="font-bold mb-2">Our Partners</h3>
-            <div class="flex flex-wrap gap-3">
-                <img src="/images/home/unicef.png" alt="UNICEF" class="h-6">
-                <img src="/images/home/kemenkes.png" alt="Kemenkes" class="h-6">
-                <img src="/images/home/worldbank.png" alt="World Bank" class="h-6">
-                <img src="/images/home/waterorg.png" alt="Water.org" class="h-6">
-                <img src="/images/home/ub.png" alt="Kemendikbud" class="h-6">
-            </div> -->
+                <h3 class="font-bold mb-2">Follow Us</h3>
+                <div class="flex gap-3 mb-4">
+                    <img src="/images/home/Facebook.png" alt="Facebook" class="w-6 h-6">
+                    <img src="/images/home/Telegram.png" alt="Telegram" class="w-6 h-6">
+                    <img src="/images/home/Instagram.png" alt="Instagram" class="w-6 h-6">
+                    <img src="/images/home/X.png" alt="X" class="w-6 h-6">
+                </div>
             </div>
         </div>
     </div>

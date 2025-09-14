@@ -15,8 +15,11 @@
                     {{ __('Dashboard') }}
                 </x-nav-link>
                 @auth 
-                    <x-nav-link :href="route('page.analisis')" :active="request()->routeIs('page.fitur')">
+                    <x-nav-link :href="route('page.analisis')" :active="request()->routeIs('page.analisis')">
                         {{ __('Analisis') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('analisis.history')" :active="request()->routeIs('analisis.history')">
+                        {{ __('Hasil Analisis') }}
                     </x-nav-link>
                 @else
                     <x-nav-link :href="route('page.harga')" :active="request()->routeIs('page.harga')">
@@ -101,6 +104,9 @@
             @auth
                 <x-responsive-nav-link :href="route('page.analisis')" :active="request()->routeIs('page.fitur')">
                     {{ __('Analisis') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('analisis.history')" :active="request()->routeIs('analisis.history')">
+                    {{ __('Hasil Analisis') }}
                 </x-responsive-nav-link>
             @else
                 <x-responsive-nav-link :href="route('page.harga')" :active="request()->routeIs('page.harga')">

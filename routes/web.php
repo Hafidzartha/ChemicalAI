@@ -36,9 +36,13 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/analisis', [AnalisisController::class, 'index'])->name('page.analisis');
-    Route::get('/hasil_analisis', [HasilAnalisisController::class, 'index'])->name('page.hasil_analisis');
+    Route::post('/analisis/store', [AnalisisController::class,'store'])->name('analisis.store');
+    //Route::get('/analisis/form/{id}', [AnalisisController::class,'formAnalysis'])->name('analisis.form');
+    Route::get('/analisis/status/{id}', [AnalisisController::class,'status'])->name('analisis.status');
+    Route::get('/analisis/result/{id}', [AnalisisController::class,'show'])->name('analisis.result');
+    Route::get('/history-analisis', [AnalisisController::class, 'history'])->name('analisis.history');
     Route::get('/dashboard', function () {return view('page.dashboard');})->name('page.dashboard');
-    Route::post('/analisis/upload', [AnalisisController::class, 'store'])->name('analisis.store');
 });
+
 
 require __DIR__.'/auth.php';
